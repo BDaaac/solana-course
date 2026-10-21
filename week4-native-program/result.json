@@ -1,0 +1,23 @@
+{
+  "programId": "6oQ1riuo8Pnvo3abyGvy6MHz4BFP6Hjw5JpQAtU2rRmT",
+  "programExplorer": "https://explorer.solana.com/address/6oQ1riuo8Pnvo3abyGvy6MHz4BFP6Hjw5JpQAtU2rRmT?cluster=devnet",
+  "noteAccount": "7tKUcyKLEev2jTN8BzPJ8m7kA3AbyxArEXLrcSyiHFaq",
+  "owner": "6oQ1riuo8Pnvo3abyGvy6MHz4BFP6Hjw5JpQAtU2rRmT",
+  "note": {
+    "author": "v6CrKZWi96N9p5p9ke6BKcGFHmj4iohP38gKUhHuCZE",
+    "text": "Updated: my first Solana program works",
+    "updates": 1
+  },
+  "transactions": {
+    "initialize": "https://explorer.solana.com/tx/2tFiegX36kHkh7PQUftEctQhDEXK5Cvc8wZXQnrLHofG4drprrAvSiDZwkzk5RvfJsGgFNaCKQdKy7ZTzFrNZms?cluster=devnet",
+    "update": "https://explorer.solana.com/tx/4xryo7piQj3cggUGEXTuzbsU6KBLhoUQ7rxQy3LwGRpo9UzrAv9DDZjvkyuVc5qruhmE7Rm1QtpipUFCnFQkw17k?cluster=devnet"
+  },
+  "updateLogs": [
+    "Program 6oQ1riuo8Pnvo3abyGvy6MHz4BFP6Hjw5JpQAtU2rRmT invoke [1]",
+    "Program log: Note updated, total updates: 1",
+    "Program log: Text: Updated: my first Solana program works",
+    "Program 6oQ1riuo8Pnvo3abyGvy6MHz4BFP6Hjw5JpQAtU2rRmT consumed 2226 of 200000 compute units",
+    "Program 6oQ1riuo8Pnvo3abyGvy6MHz4BFP6Hjw5JpQAtU2rRmT success"
+  ],
+  "unauthorizedUpdate": "Simulation failed. "
+}

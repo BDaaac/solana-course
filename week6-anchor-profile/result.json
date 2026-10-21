@@ -1,0 +1,21 @@
+{
+  "programId": "ABcoiQozKZMZ7uiUdha1ip8Z6zDpekTP9iifUeyGcsS1",
+  "programExplorer": "https://explorer.solana.com/address/ABcoiQozKZMZ7uiUdha1ip8Z6zDpekTP9iifUeyGcsS1?cluster=devnet",
+  "profilePda": "EEYvnW8H5HmQsDfPKfxKwKuu9r5rvPWgQwTKc5Cs2KV7",
+  "usernamePda": "GfqQc3keSJ1cP1RT65wS4upTg4zkDwtnL8HLAM1fHS7p",
+  "profile": {
+    "authority": "v6CrKZWi96N9p5p9ke6BKcGFHmj4iohP38gKUhHuCZE",
+    "username": "dev_v6crkz",
+    "bio": "PDA profile works! Built with Anchor",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/35608259",
+    "createdAt": "1790763573",
+    "updatedAt": "1790763574"
+  },
+  "usernameRecordOwner": "v6CrKZWi96N9p5p9ke6BKcGFHmj4iohP38gKUhHuCZE",
+  "duplicateUsernameError": "Simulation failed. ",
+  "totalProfiles": 1,
+  "transactions": {
+    "create": "https://explorer.solana.com/tx/4vViwPNNxCfihc1pTyoF2ySHKF2xCPQB7NnHDShhaJEtBf8NZSzZQ9t9QrDgg4YaGenHQXnMbrn2Ny5P3V3rVD8B?cluster=devnet",
+    "update": "https://explorer.solana.com/tx/G21JVqFfovMpq5ztY9UftKNs6X6jicasSbjwdWxWy68GcBab6axPsddESCXbKcm1gxgss6PVzhVMHvSAmD1xbak?cluster=devnet"
+  }
+}

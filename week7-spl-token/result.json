@@ -1,0 +1,28 @@
+{
+  "mint": "EGAq25Rh7Ry28cpXfsj2rkHm8qYMRQ55G1UuZNYDrvFX",
+  "mintExplorer": "https://explorer.solana.com/address/EGAq25Rh7Ry28cpXfsj2rkHm8qYMRQ55G1UuZNYDrvFX?cluster=devnet",
+  "program": "Token-2022 (TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb)",
+  "decimals": 6,
+  "supply": "1000000",
+  "mintAuthority": "v6CrKZWi96N9p5p9ke6BKcGFHmj4iohP38gKUhHuCZE",
+  "metadata": {
+    "name": "Solana Course Token",
+    "symbol": "SCT",
+    "uri": "https://raw.githubusercontent.com/solana-developers/opos-asset/main/assets/DeveloperPortal/metadata.json",
+    "additionalMetadata": [
+      [
+        "course",
+        "Solana week 7"
+      ]
+    ]
+  },
+  "balances": {
+    "owner v6CrKZWi96N9p5p9ke6BKcGFHmj4iohP38gKUhHuCZE": "998500",
+    "recipient gZEQ8vfqXc9t8zmBfNmvaL8FXYxRAdoazh5u3fVWSBf": "1500"
+  },
+  "transactions": {
+    "createMint": "https://explorer.solana.com/tx/GpHC5X5KUKAa9qnd3EwxJJLDHcCFeQTGFtJzBt6356wRcbPXb62z7VNRZYrPydkEQziHaRWVNQyg39EHV8ZN1sD?cluster=devnet",
+    "mintTo": "https://explorer.solana.com/tx/4YaguWxPCUNhzUoPFUAksYa2XJq9yysFN6QE1oCxUyxW9CgoKbAzWNsEVUjNUytcCDw6yWdG9P8Lvnajc1ThSxAK?cluster=devnet",
+    "transfer": "https://explorer.solana.com/tx/4WhuSX1oKG7rRQ4seEU7crSa8Yxxqd5SGJR7veMViAqqPDog3k7a5d8WWPMV9Maatddu4Sev1rcNF3LLHpesYPKC?cluster=devnet"
+  }
+}

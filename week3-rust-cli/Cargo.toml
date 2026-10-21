@@ -1,0 +1,12 @@
+[package]
+name = "solcli"
+version = "0.1.0"
+edition = "2021"
+description = "Mini Solana ledger simulator: week 3 assignment (Rust for Solana developers)"
+
+# Без внешних зависимостей: только стандартная библиотека Rust.
+[dependencies]
+
+[profile.release]
+# Как в шаблоне Anchor: проверка переполнения включена даже в release-сборке.
+overflow-checks = true

@@ -1,0 +1,17 @@
+{
+  "programId": "7nnPuXhhqA7S9CwG3zu5qLapAys3fRViLWx8MLYRHryv",
+  "programExplorer": "https://explorer.solana.com/address/7nnPuXhhqA7S9CwG3zu5qLapAys3fRViLWx8MLYRHryv?cluster=devnet",
+  "counterPda": "Hgsvfr277KQTBDcERpNB4aWCC1qvR73VLP3K4wYUR7Ck",
+  "finalState": {
+    "authority": "v6CrKZWi96N9p5p9ke6BKcGFHmj4iohP38gKUhHuCZE",
+    "count": "6",
+    "totalUpdates": "3"
+  },
+  "transactions": {
+    "initialize": "https://explorer.solana.com/tx/5XVgLuL5N2nB5wsz6FMns7KTie62FtW7tfpHaq9cQHGJ12n7VPZUnATtwL3rSM72cY23DvLHPVioPyxKzUWnT5Pv?cluster=devnet",
+    "increment5": "https://explorer.solana.com/tx/4KmoGPRzf8cbvaRztz6s4KEViu4WdgUNxEiPBMEmdrh4YicaJKAXCFcpWcGLH7gQby7mGWAfcWeYPKJEurbUXKak?cluster=devnet",
+    "increment3": "https://explorer.solana.com/tx/57xALVmBfhB4Qh3nm9vCVKL8aoj64HUwR66Xt2EvA36NFbx8eStPFtYsx4C73in437u67XzdkEDKbGuWMxAmGFod?cluster=devnet",
+    "decrement2": "https://explorer.solana.com/tx/3a3eJHZj7ncQq5wkfxqMAoZi5Rbt98MpZCTbDzFpuL3vzdx8NESVLpT4i6pDv4dLtvpUsuuHRASgdRbJp4wC3i27?cluster=devnet"
+  },
+  "underflowError": "AnchorError occurred. Error Code: CounterUnderflow. Error Number: 6001. Error Message: Counter cannot go below zero."
+}

@@ -1,0 +1,71 @@
+{
+  "wallet": "3STtbtG3gD1XPBcqno8sPY4j5ABL69RHB9s837X9zcpK",
+  "walletExplorer": "https://explorer.solana.com/address/3STtbtG3gD1XPBcqno8sPY4j5ABL69RHB9s837X9zcpK?cluster=devnet",
+  "signature": "FdSTfbQvF54s7exsL8rdAo3a1oMZk2ppUX3HMG8zW1fJywheuAB8QaTg8DFgQHUXwxqs7cKLtiAPEhJqAzqwp1Q",
+  "explorer": "https://explorer.solana.com/tx/FdSTfbQvF54s7exsL8rdAo3a1oMZk2ppUX3HMG8zW1fJywheuAB8QaTg8DFgQHUXwxqs7cKLtiAPEhJqAzqwp1Q?cluster=devnet",
+  "slot": 505870075,
+  "blockTime": "2026-09-30T10:17:16.000Z",
+  "fee": "0.000005 SOL",
+  "status": "Success",
+  "accounts": [
+    {
+      "address": "3STtbtG3gD1XPBcqno8sPY4j5ABL69RHB9s837X9zcpK",
+      "signer": true,
+      "writable": true,
+      "preBalance": "0.2 SOL",
+      "postBalance": "0.149995 SOL",
+      "change": "-0.050005 SOL"
+    },
+    {
+      "address": "v6CrKZWi96N9p5p9ke6BKcGFHmj4iohP38gKUhHuCZE",
+      "signer": false,
+      "writable": true,
+      "preBalance": "1.97620616 SOL",
+      "postBalance": "2.02620616 SOL",
+      "change": "0.05 SOL"
+    },
+    {
+      "address": "11111111111111111111111111111111",
+      "signer": false,
+      "writable": false,
+      "preBalance": "1e-9 SOL",
+      "postBalance": "1e-9 SOL",
+      "change": "0 SOL"
+    },
+    {
+      "address": "MemoSq4gqABAXKb96qnH8TysNcWxMyWCqXgDLGmfcHr",
+      "signer": false,
+      "writable": false,
+      "preBalance": "41.509609334 SOL",
+      "postBalance": "41.509609334 SOL",
+      "change": "0 SOL"
+    }
+  ],
+  "instructions": [
+    {
+      "programId": "11111111111111111111111111111111",
+      "program": "system",
+      "parsed": {
+        "info": {
+          "destination": "v6CrKZWi96N9p5p9ke6BKcGFHmj4iohP38gKUhHuCZE",
+          "lamports": 50000000,
+          "source": "3STtbtG3gD1XPBcqno8sPY4j5ABL69RHB9s837X9zcpK"
+        },
+        "type": "transfer"
+      }
+    },
+    {
+      "programId": "MemoSq4gqABAXKb96qnH8TysNcWxMyWCqXgDLGmfcHr",
+      "program": "spl-memo",
+      "parsed": "Week 1: my first Solana transaction"
+    }
+  ],
+  "logs": [
+    "Program 11111111111111111111111111111111 invoke [1]",
+    "Program 11111111111111111111111111111111 success",
+    "Program MemoSq4gqABAXKb96qnH8TysNcWxMyWCqXgDLGmfcHr invoke [1]",
+    "Program log: Memo (len 35): \"Week 1: my first Solana transaction\"",
+    "Program MemoSq4gqABAXKb96qnH8TysNcWxMyWCqXgDLGmfcHr consumed 13870 of 202850 compute units",
+    "Program MemoSq4gqABAXKb96qnH8TysNcWxMyWCqXgDLGmfcHr success"
+  ]
+}

@@ -1,0 +1,15 @@
+[package]
+name = "week4_note"
+version = "0.1.0"
+edition = "2021"
+description = "Week 4: first native Solana program (on-chain note)"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+
+[dependencies]
+solana-program = "3"
+borsh = { version = "1.5", features = ["derive"] }
+
+[lints.rust]
+unexpected_cfgs = { level = "allow" }

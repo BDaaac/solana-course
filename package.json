@@ -1,0 +1,36 @@
+{
+  "name": "solana-course",
+  "private": true,
+  "type": "module",
+  "description": "Solana course: weeks 1-15",
+  "scripts": {
+    "week1": "tsx week1-first-transaction/first-transaction.ts",
+    "week2": "tsx week2-transaction-detective/detective.ts",
+    "week2:report": "tsx week2-transaction-detective/investigate.ts",
+    "week4": "tsx week4-native-program/client/client.ts",
+    "week5": "tsx week5-anchor-counter/client/client.ts",
+    "week6": "tsx week6-anchor-profile/client/client.ts",
+    "week7": "tsx week7-spl-token/token.ts",
+    "typecheck": "tsc --noEmit",
+    "vault:basic": "tsx liquidity-vault/scripts/01-vault.ts",
+    "vault:pool": "tsx liquidity-vault/scripts/02-pool.ts",
+    "vault:swap": "tsx liquidity-vault/scripts/03-swap.ts",
+    "vault:position": "tsx liquidity-vault/scripts/04-position.ts"
+  },
+  "dependencies": {
+    "@anchor-lang/core": "^1.2.0",
+    "@coral-xyz/anchor": "^0.31.1",
+    "@raydium-io/raydium-sdk-v2": "^0.2.32-alpha",
+    "@solana/spl-token": "^0.4.13",
+    "@solana/spl-token-metadata": "^0.1.6",
+    "@solana/web3.js": "^1.98.2",
+    "bn.js": "^5.2.1",
+    "decimal.js": "^10.6.0"
+  },
+  "devDependencies": {
+    "@types/bn.js": "^5.1.6",
+    "@types/node": "^22.15.0",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3"
+  }
+}
